@@ -1,5 +1,5 @@
 
-function akin_name(){ //function gets run when user presses submit
+function akin_name(){ 
 
 
    let birth = document.getElementById('date').value; //This gets the value given in the date form
