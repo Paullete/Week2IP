@@ -2,8 +2,8 @@
 function akin_name(){ 
 
 
-   let birth = document.getElementById('date').value; //This gets the value given in the date form
-   let gender = document.getElementsByName('gender');//This gets the gender of the user
+   let birth = document.getElementById('date').value; 
+   let gender = document.getElementsByName('gender');
 
 
    let dob=new Date(birth)//so am mapping the date given to a date function in javascript
