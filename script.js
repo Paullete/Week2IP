@@ -29,10 +29,7 @@ function akin_name(){
         let gender= i.value;
 
 
-        //Below is a combination of switch and if -else statement where 
-        //if it is male
-        //and the resut from formulae returns either 0 or 1 or 2 print this
-   
+       
     if(gender=='Male'){
         switch(d){
             case 0:
