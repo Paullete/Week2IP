@@ -6,13 +6,13 @@ function akin_name(){
    let gender = document.getElementsByName('gender');
 
 
-   let dob=new Date(birth)//so am mapping the date given to a date function in javascript
-   let DD = dob.getDate();//This gets me the date
-   let MM1=dob.getMonth();//This gets me the month
-   let year = dob.getFullYear();//gets me the year
+   let dob=new Date(birth)
+   let DD = dob.getDate();
+   let MM1=dob.getMonth();
+   let year = dob.getFullYear();
    let year1=year.toString();//now this turns it to string so i can split year from 2022 to 20 and 22 for CC AND YY IN THE FORMULAE
-   let CC1= year1[0] + year1[1]//here i combine the first two digits
-   let YY1= year1[2] + year1[3]//here i combine the last two digits
+   let CC1= year1[0] + year1[1]
+   let YY1= year1[2] + year1[3]
    CC=parseInt(CC1)//they were in string format now i change to integer format since you cant add strings
    YY=parseInt(YY1)
    MM=MM1+1;//WHen it Picks the month it starts at 0 instead of 1 e.g January=0 instead January=1 so by adding one enables months to be designated as March=2+1=3
