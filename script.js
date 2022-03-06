@@ -1,5 +1,5 @@
 
-function akin_name(){ 
+function akan_name(){ 
 // The added comments are for personal use and IP understanding
 
    let birth = document.getElementById('date').value; 
