@@ -3,7 +3,7 @@ function akan_name(){
 // The added comments are for personal use and IP understanding
 
    let birth = document.getElementById('date').value; 
-   let gender = document.getElementsByName('gender');
+   let gender = <link rel="stylesheet" href="script.js"> </link> = document.getElementsByName('gender');
 
 
    let dob=new Date(birth)
