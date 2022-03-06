@@ -1,6 +1,6 @@
 
 function akin_name(){ 
-
+// The added comments are for personal use and IP understanding
 
    let birth = document.getElementById('date').value; 
    let gender = document.getElementsByName('gender');
@@ -17,14 +17,12 @@ function akin_name(){
    YY=parseInt(YY1)
    MM=MM1+1;//WHen it Picks the month it starts at 0 instead of 1 e.g January=0 instead January=1 so by adding one enables months to be designated as March=2+1=3
 
-   let d2=(((CC/4)-2*CC-1)+((5 * YY/4))+((26*(MM+1)/10))+DD)%7//formulae given
+   let d2=(((CC/4)-2*CC-1)+((5 * YY/4))+((26*(MM+1)/10))+DD)%7
 
    d1=Math.floor(d2)//since it may give a float the floor function rounds off to the lower integer e.g 5.788=5
    d=Math.abs(d1)//tHIS ENSURES all values will be transformed to positive   
 
 
-   //Below its a function to get input from radio button whichever the user selected. It
-   //is a loop for the options in gender, the one marked, pick that one
    for (let i of gender) {
 
     if (i.checked) {
