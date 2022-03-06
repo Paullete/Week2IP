@@ -8,7 +8,7 @@ body{
     padding: 0;
 }
 .container{
-    background-color: rgb(247, 203, 9);
+    background-color: burlywood;
     min-height: 100px;
     width: 520px;
     margin: 100px auto;
