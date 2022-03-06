@@ -8,6 +8,7 @@ Paullete Adhiambo
 ## Set up instructions
 To set up the above project you have to download it then run it on your local computer.
 ## Git pages link
+https://paullete.github.io/Week2IP/
 ## Technologoies  used
 Javascript, CSS, HTML
 ## License and contact information
